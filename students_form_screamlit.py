@@ -148,9 +148,9 @@ with main_layout:
     st.markdown("""
         <style>
         div.stButton > button:first-child { font-weight: bold; color: white !important; }
-        div[data-testid="column"]::nth-of-type(1) button { background-color: #2e7d32 !important; border: 1px solid #2e7d32; }
-        div[data-testid="column"]::nth-of-type(2) button { background-color: #1565c0 !important; border: 1px solid #1565c0; }
-        div[data-testid="column"]::nth-of-type(3) button { background-color: #c62828 !important; border: 1px solid #c62828; }
+        div[data-testid="column"]::nth-of-type(1) button { background-color: green!important; border: 1px solid #2e7d32; }
+        div[data-testid="column"]::nth-of-type(2) button { background-color: blue !important; border: 1px solid #1565c0; }
+        div[data-testid="column"]::nth-of-type(3) button { background-color: red !important; border: 1px solid #c62828; }
         </style>
     """, unsafe_allow_html=True)
 
