@@ -1,7 +1,7 @@
 import streamlit as st
 
 ## Code by: Vesselee G.Flomo from the IT department @ Apex University
-# Optimized Layout Architecture
+
 
 # Initialize persistent session state for database storage
 if "saved_data" not in st.session_state:
@@ -26,7 +26,7 @@ def clear_fields():
 st.markdown(
     """
     <div style="background-color: orange; padding: 10px; text-align: center; width: 100%; border-radius: 5px; margin-bottom: 20px;">
-        <h1 style="background-color: blue; color: white; font-family: Arial; font-weight: bold; font-size: 35px; margin: 0; padding: 15px; border-radius: 5px;">
+        <h1 style="background-color: orange; color: white; font-family: Arial; font-weight: bold; font-size: 35px; margin: 0; padding: 15px; border-radius: 5px;">
             Student Detail Portal
         </h1>
     </div>
@@ -43,7 +43,7 @@ main_layout, _ = st.columns([8, 1])
 
 with main_layout:
     # Use TABS to reorganize the form positioning cleanly
-    tab1, tab2, tab3 = st.tabs(["📋 Student Information", "👨‍👩‍👦 Parent Information", "🔍 Database Search Engine"])
+    tab1, tab2, tab3 = st.tabs(["📋 Student Information; font-size:20px", "👨‍👩‍👦 Parent Information; font-size:20px", "🔍 Database Search Engine; font-size:20px"])
 
     # --- TAB 1: STUDENT INFORMATION ---
     with tab1:
