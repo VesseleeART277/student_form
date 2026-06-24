@@ -148,9 +148,9 @@ with main_layout:
     st.markdown("""
         <style>
         div.stButton > button:first-child { font-weight: bold; color: blue!important; }
-        div[data-testid="column"]::nth-of-type(1) button { background-color: green!important; border: 1px solid #2e7d32; }
-        div[data-testid="column"]::nth-of-type(2) button { background-color: blue !important; border: 1px solid #1565c0; }
-        div[data-testid="column"]::nth-of-type(3) button { background-color: red !important; border: 1px solid #c62828; }
+        div[data-testid="column"]::nth-of-type(1) button { background-color: green!important; border: 1px; }
+        div[data-testid="column"]::nth-of-type(2) button { background-color: blue !important; border: 1px; }
+        div[data-testid="column"]::nth-of-type(3) button { background-color: red !important; border: 1px; }
         </style>
     """, unsafe_allow_html=True)
 
@@ -193,7 +193,7 @@ with main_layout:
                     st.error("Student ID records do not exist to initiate updates.")
 
     with btn_col3:
-        if st.button("Cancel & Wipe", use_container_width=True):
+        if st.button("Cancel", use_container_width=True):
             st.warning("Clear actions completed. Form wiped out safely.")
             clear_fields()
             st.rerun()
