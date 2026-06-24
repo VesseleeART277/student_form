@@ -43,7 +43,7 @@ main_layout, _ = st.columns([8, 1])
 
 with main_layout:
     # Use TABS to reorganize the form positioning cleanly
-    tab1, tab2, tab3 = st.tabs(["📋 Student Information; font-size:20px", "👨‍👩‍👦 Parent Information; font-size:20px", "🔍 Database Search Engine; font-size:20px"])
+    tab1, tab2, tab3 = st.tabs(["📋 Student Information; font-size:20px;", "👨‍👩‍👦 Parent Information; font-size:20px;", "🔍 Database Search Engine; font-size:20px;"])
 
     # --- TAB 1: STUDENT INFORMATION ---
     with tab1:
