@@ -147,7 +147,7 @@ with main_layout:
     # Custom Button Injection Styles
     st.markdown("""
         <style>
-        div.stButton > button:first-child { font-weight: bold; color: white !important; }
+        div.stButton > button:first-child { font-weight: bold; color: blue!important; }
         div[data-testid="column"]::nth-of-type(1) button { background-color: green!important; border: 1px solid #2e7d32; }
         div[data-testid="column"]::nth-of-type(2) button { background-color: blue !important; border: 1px solid #1565c0; }
         div[data-testid="column"]::nth-of-type(3) button { background-color: red !important; border: 1px solid #c62828; }
