@@ -27,7 +27,7 @@ st.markdown(
     """
     <div style="background-color: orange; padding: 10px; text-align: center; width: 100%; border-radius: 5px; margin-bottom: 20px;">
         <h1 style="background-color: orange; color: white; font-family: Arial; font-weight: bold; font-size: 35px; margin: 0; padding: 15px; border-radius: 5px;">
-            Student Detail Portal
+            Student Detail Form 
         </h1>
     </div>
     """, 
